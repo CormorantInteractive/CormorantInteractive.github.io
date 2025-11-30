@@ -21,6 +21,15 @@
   position: absolute;
   top: 90%;
 }
+.postcard-title{
+
+}
+.postcard-text {
+  position: absolute;
+  top: 60%;
+  width:55%;
+  font-size: 1rem;
+}
 .top-5 {
   position: absolute;
   top: 5%;
@@ -38,6 +47,25 @@ z-index: 50;
 .hero{
     background-color: #bbaf8d;
 }
-.hero-1, .hero-2, .hero-3{
+
+.hero-1{
+  background-image: url(/Resources/Images/Postcard.png);
+  background-size: cover;
+  background-position: center;
+}
+.hero-1-sm{
+  background-image: url(/Resources/Images/Postcard-no\ border.png);
+  background-size: cover;
+  background-position: center;
+}
+.hero-1-sm .text{
+  background-color: rgba(247, 235, 226,0.6);
+  border-radius: 10px;
+
+}
+.hero-2, .hero-3{
     background-color: rgb(187,	175,141);
+}
+body{
+    background-color: #bbaf8d;
 }
