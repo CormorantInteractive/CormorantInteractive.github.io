@@ -1,6 +1,7 @@
-.Dashed-Line{
+.dashed-line
+{
     height:3px;
-  background:
+    background:
     radial-gradient(circle closest-side, #eae7e1 98%,#0000) 50%/20px 100%,
     linear-gradient(90deg,#eae7e1 50%,#0000 0)             50%/40px 100%;
 }
@@ -13,6 +14,16 @@
 .navbar a{
     color: #c9bea6;
 }
+
+#Honk, #Team {
+  scroll-margin-top: 64px;
+}
+
+#Home
+{
+  scroll-margin-top: 128px;
+}
+
 .top-95 {
   position: absolute;
   top: 95%;
@@ -37,12 +48,12 @@
 .spacer{
     background-color: #4f6238;
     height: 75px;
-/*box-shadow: 0px 10px 10px rgba(21, 21, 21, 0.5), 0px -10px 10px rgba(86,106,62, .5);*/
-background-image:  linear-gradient(#2f3529 2px, transparent 2px), linear-gradient(90deg, #2f3529 2px, transparent 2px), linear-gradient(#2f3529 1px, transparent 1px), linear-gradient(90deg, #2f3529 1px, #4f6238 1px);
+    /*box-shadow: 0px 10px 10px rgba(21, 21, 21, 0.5), 0px -10px 10px rgba(86,106,62, .5);*/
+    background-image:  linear-gradient(#2f3529 2px, transparent 2px), linear-gradient(90deg, #2f3529 2px, transparent 2px), linear-gradient(#2f3529 1px, transparent 1px), linear-gradient(90deg, #2f3529 1px, #4f6238 1px);
 
-background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
-background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
-z-index: 50;
+    background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
+    background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+    z-index: 50;
 }
 .hero{
     background-color: #bbaf8d;
@@ -68,4 +79,67 @@ z-index: 50;
 }
 body{
     background-color: #bbaf8d;
+}
+
+.honk-patch
+{
+  background-color:#566a3e;
+  border: 4px dashed #eae7e1;
+  border-radius: 24px;
+}
+
+.honk-card
+{
+  height: 100%;
+  padding: .5rem;
+}
+
+.object-fit-contain
+{
+  object-fit: contain !important;
+}
+
+.honk-card-img
+{
+  width: 90%;
+}
+
+.card img
+{
+    width: 100%;
+    height: auto;
+}
+
+.honk-card-body
+{
+    padding: 4px;
+    background: repeating-linear-gradient(
+  45deg,
+  #606dbc,
+  #606dbc 10px,
+  #465298 10px,
+  #465298 20px
+);
+}
+
+.card-text
+{
+    margin-top:4px;
+    padding: 6px;
+
+    text-align: left;
+    justify-content: baseline;
+}
+
+.card-text p
+{
+  margin-top: 1px;
+  margin-bottom: 5px;
+}
+
+.honk-card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
 }
