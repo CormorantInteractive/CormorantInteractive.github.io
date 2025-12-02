@@ -5,12 +5,14 @@
   font-style: normal;
   font-weight: 250;
 }
+
 @font-face {
   font-family: 'HelveticaNeueBold';
   src: url('/Resources/Fonts/HelveticaBold.woff') format('woff');
   font-style: normal;
   font-weight: 500;
 }
+
 @font-face {
   font-family: 'HelveticaNeueBlack';
   src: url('/Resources/Fonts/HelveticaNeueBlackExt.woff') format('woff');
